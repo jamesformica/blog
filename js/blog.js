@@ -3,20 +3,20 @@ var articleIterator = 0;
 function ready() {
     var _articlesContainer = document.getElementsByClassName("ui-articles")[0];
     var _articleList = document.getElementsByClassName("ui-article-list")[0];
-    var articleToShow = -1;
+    var articleToShow = undefined;
 
-    var articleIndex = window.location.search.indexOf("article");
-    
-    if (articleIndex > -1) {
-        var articleNum = window.location.search.substring(articleIndex).split("=")[1];
-        articleNum = Number(articleNum);
+    var articleParam = getQueryParam("article");
+
+    if (articleParam !== null) {
+        var articleNum = Number(articleParam);
 
         if (!isNaN(articleNum)) {
             articleToShow = articleList[articleNum];
+            articleIterator = articleNum;
         }
     }
 
-    if (articleToShow === -1) {
+    if (!articleToShow) {
         articleToShow = articleList[articleIterator];
     }
 
@@ -43,6 +43,37 @@ function populateArticleList(_articleList) {
 }
 
 /**
+ * Send an async GET request asking for the next article
+ */
+function getArticle(articleName, elementToAppend) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            appendArticle(xmlhttp.responseText, elementToAppend);
+        }
+    }
+
+    xmlhttp.open("GET", getUrl(articleName), true);
+    xmlhttp.send();
+}
+
+/**
+ * Convert the response's markdown to html then render
+ * the retrieved article on the page
+ */
+function appendArticle(responseText, elementToAppend) {
+    var parser = new DOMParser();
+    var converter = new showdown.Converter();
+
+    var html = converter.makeHtml(responseText);
+
+    var _article = document.createElement("article");
+    _article.innerHTML = html;
+
+    elementToAppend.appendChild(_article);
+}
+
+/**
  * Helper function to get the URL to an article's content
  */
 function getUrl(articleName) {
@@ -58,45 +89,41 @@ function getDisplayUrl(articleNum) {
 }
 
 /**
- * Send an async GET request asking for the next article
+ * Set up click handlers for various elements
  */
-function getArticle(articleName, elementToAppend) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            appendArticle(xmlhttp.responseText, elementToAppend);
-            //elementToAppend.innerHTML = "<em>CHICKEN</em> New Header";
-        }
-    }
-
-    xmlhttp.open("GET", getUrl(articleName), true);
-    xmlhttp.send();
-}
-
-/**
- * Render the retrieved article on the page
- */
-function appendArticle(responseText, elementToAppend) {
-    var parser = new DOMParser();
-    var converter = new showdown.Converter();
-
-    var html = converter.makeHtml(responseText);
-
-    var _article = document.createElement("article");
-    _article.innerHTML = html;
-
-    elementToAppend.appendChild(_article);
-}
-
 function attachEvents() {
     var _hamburger = document.getElementsByClassName("ui-hamburger")[0];
     var _backdrop = document.getElementsByClassName("ui-backdrop")[0];
 
-     _hamburger.onclick = function() {
-         document.body.classList = "slide";
-     };
+    _hamburger.onclick = function () {
+        document.body.classList = "slide";
+    };
 
-     _backdrop.onclick = function() {
-         document.body.classList = "";
-     }
+    _backdrop.onclick = function () {
+        document.body.classList = "";
+    }
+}
+
+/**
+ * Helper function to get values out of the query string params
+ */
+function getQueryParam(name) {
+    var index = window.location.search.indexOf(name);
+
+    if (index > -1) {
+        var pair;
+        var nextAmp = window.location.search.indexOf("&", index);
+
+        if (nextAmp > -1) {
+            pair = window.location.search.substring(index, nextAmp);
+        } else {
+            pair = window.location.search.substring(index);
+        }
+
+        var splitPair = pair.split("=");
+
+        if (splitPair.length === 2) return splitPair[1];
+    }
+
+    return null;
 }
