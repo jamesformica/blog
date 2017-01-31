@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+body > aside {
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #083751;
+    color: white;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > aside ul {
+    padding: 0;
+}
+
+body > aside ul > li {
+    margin: 20px 0;
+}
+
+body > section {
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > section > header {
+    text-align: center;
+}
+
+body > section > .articles {
+    max-width: 600px;
+}

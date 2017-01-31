@@ -1,0 +1,18 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.no-style {
+    text-decoration: none;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+}
