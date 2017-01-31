@@ -1,4 +1,4 @@
-##How this blog got it's name
+## How this blog got it's name
 
 31<sup>st</sup> January 2017
 

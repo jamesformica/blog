@@ -48,7 +48,7 @@ function populateArticleList(_articleList) {
 function getArticle(articleName, elementToAppend) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
             appendArticle(xmlhttp.responseText, elementToAppend);
         }
     }
@@ -101,6 +101,27 @@ function attachEvents() {
 
     _backdrop.onclick = function () {
         document.body.classList = "";
+    }
+
+    var nextArticle = articleList[articleIterator + 1];
+    var prevArticle = articleList[articleIterator - 1];
+
+    if (nextArticle) {
+        var _next = document.getElementsByClassName("ui-next")[0];
+        _next.classList = _next.classList + " show";
+
+        var _nextLink = _next.getElementsByClassName("ui-next-link")[0];
+        _nextLink.innerHTML = nextArticle[0];
+        _nextLink.href = getDisplayUrl(articleIterator + 1);
+    }
+
+    if (prevArticle) {
+        var _prev = document.getElementsByClassName("ui-prev")[0];
+        _prev.classList = _prev.classList + " show";
+
+        var _prevLink = _prev.getElementsByClassName("ui-prev-link")[0];
+        _prevLink.innerHTML = prevArticle[0];
+        _prevLink.href = getDisplayUrl(articleIterator - 1);
     }
 }
 

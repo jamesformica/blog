@@ -74,3 +74,13 @@ body > .backdrop {
     background: transparent;
     display: none;
 }
+
+.next, .prev {
+    text-align: center;
+    margin: 20px 0;
+    display: none;
+}
+
+.show {
+    display: block;
+}
