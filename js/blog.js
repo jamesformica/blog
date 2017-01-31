@@ -47,11 +47,11 @@ function populateArticleList(_articleList) {
  * Helper function to get the URL to an article
  */
 function getUrl(articleName) {
-    return "/articles/" + articleName;
+    return window.location.pathname + "articles/" + articleName;
 }
 
 function getDisplayUrl(articleNum) {
-    return "/?article=" + articleNum;
+    return window.location.pathname + "?article=" + articleNum;
 }
 
 /**
