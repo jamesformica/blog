@@ -22,8 +22,7 @@ function ready() {
 
     populateArticleList(_articleList);
     getArticle(articleToShow[1], _articlesContainer);
-
-   
+    attachEvents();
 }
 
 /**
@@ -44,12 +43,16 @@ function populateArticleList(_articleList) {
 }
 
 /**
- * Helper function to get the URL to an article
+ * Helper function to get the URL to an article's content
  */
 function getUrl(articleName) {
     return window.location.pathname + "articles/" + articleName;
 }
 
+/**
+ * Helper function to get the URL that will display the article
+ * nicely with the layout
+ */
 function getDisplayUrl(articleNum) {
     return window.location.pathname + "?article=" + articleNum;
 }
@@ -83,4 +86,17 @@ function appendArticle(responseText, elementToAppend) {
     _article.innerHTML = html;
 
     elementToAppend.appendChild(_article);
+}
+
+function attachEvents() {
+    var _hamburger = document.getElementsByClassName("ui-hamburger")[0];
+    var _backdrop = document.getElementsByClassName("ui-backdrop")[0];
+
+     _hamburger.onclick = function() {
+         document.body.classList = "slide";
+     };
+
+     _backdrop.onclick = function() {
+         document.body.classList = "";
+     }
 }

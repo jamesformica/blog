@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    body > .hamburger {
+        display: inline-block;
+    }
+
+    body > aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow: auto;
+        z-index: 1000;
+
+        transform: translateX(-100%);
+        transition: 0.4s;
+    }
+
+    body.slide > aside {
+        transform: translateX(0);
+    }
+
+    body.slide > .backdrop {
+        display: block;
+    } 
+}
