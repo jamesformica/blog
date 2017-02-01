@@ -8,11 +8,6 @@
     }
 
     body > aside {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        overflow: auto;
         z-index: 1000;
         transform: translateX(-100%);
         transition: 0.4s;

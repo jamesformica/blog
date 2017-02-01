@@ -8,10 +8,15 @@ body {
 }
 
 body > aside {
-    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
     padding: 20px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
+    overflow: auto;
     background-color: #083751;
     color: white;
 
@@ -24,6 +29,7 @@ body > aside {
 
 body > aside ul {
     padding: 0;
+    list-style: none;
 }
 
 body > aside ul > li {
@@ -31,7 +37,7 @@ body > aside ul > li {
 }
 
 body > section {
-    padding: 0 40px;
+    padding: 40px;
     box-sizing: border-box;
     
     flex-grow: 1;
@@ -43,6 +49,11 @@ body > section {
 
 body > section > header {
     text-align: center;
+}
+
+body > section > footer {
+    height: 100px;
+    width: 100%;
 }
 
 body > section > .articles {
