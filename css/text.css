@@ -6,6 +6,7 @@ h1 {
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: #083751;
 }
 
 .no-style {
@@ -15,4 +16,18 @@ h1 {
 
 p {
     text-align: justify;
+}
+
+hr {
+    background-color: #083751;
+    margin: 80px 0;
+    height: 1px;
+    border: 0;
+    width: 70%;
+    max-width: 500px;
+}
+
+hr.inverse {
+    background-color: white;
+    margin: 20px 0;
 }

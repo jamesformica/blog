@@ -53,11 +53,16 @@ body > section > header {
 }
 
 body > section > footer {
-    height: 100px;
-    width: 100%;
+    font-size: 14px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-body > section > .articles {
+body > section > .articles, body > section > footer {
     width: 100%;
     max-width: 600px;
 }

@@ -13,6 +13,10 @@
         transition: 0.4s;
     }
 
+    body > section {
+        margin-left: 0;
+    }
+
     body.slide > aside {
         transform: translateX(0);
     }
