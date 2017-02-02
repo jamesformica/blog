@@ -1,6 +1,8 @@
-var articleIterator = 0;
+var articleIterator;
 
 function ready() {
+    articleIterator = articleList.length - 1;
+
     var _articlesContainer = document.getElementsByClassName("ui-articles")[0];
     var _articleList = document.getElementsByClassName("ui-article-list")[0];
     var articleToShow = undefined;
@@ -63,6 +65,8 @@ function getArticle(articleName, elementToAppend) {
  */
 function appendArticle(responseText, elementToAppend) {
     var converter = new showdown.Converter();
+    converter.setOption('tables', true);
+    converter.setOption('strikethrough', true);
 
     var html = converter.makeHtml(responseText);
 
@@ -102,8 +106,8 @@ function attachEvents() {
         document.body.classList = "";
     }
 
-    var nextArticle = articleList[articleIterator - 1];
-    var prevArticle = articleList[articleIterator + 1];
+    var nextArticle = articleList[articleIterator + 1];
+    var prevArticle = articleList[articleIterator - 1];
 
     if (nextArticle) {
         var _next = document.getElementsByClassName("ui-next")[0];
@@ -111,7 +115,7 @@ function attachEvents() {
 
         var _nextLink = _next.getElementsByClassName("ui-next-link")[0];
         _nextLink.innerHTML = nextArticle[0];
-        _nextLink.href = getDisplayUrl(articleIterator - 1);
+        _nextLink.href = getDisplayUrl(articleIterator + 1);
     }
 
     if (prevArticle) {
@@ -120,7 +124,7 @@ function attachEvents() {
 
         var _prevLink = _prev.getElementsByClassName("ui-prev-link")[0];
         _prevLink.innerHTML = prevArticle[0];
-        _prevLink.href = getDisplayUrl(articleIterator + 1);
+        _prevLink.href = getDisplayUrl(articleIterator - 1);
     }
 }
 

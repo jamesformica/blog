@@ -78,6 +78,19 @@ body {
   line-height: 1.85;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+thead th {
+  border-bottom: 1px solid #083751;
+}
+
+th, td {
+  padding: 0 5px;
+  vertical-align: text-top;
+}
+
 p,
 .splendor-p {
   font-size: 1rem;
