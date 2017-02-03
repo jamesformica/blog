@@ -19,11 +19,12 @@ function ready() {
     }
 
     if (!articleToShow) {
-        articleToShow = articleList[articleIterator];
+        var firstAvailable = getPrevArticle(articleList.length);
+        articleToShow = articleList[firstAvailable];
     }
 
     populateArticleList(_articleList);
-    getArticle(articleToShow[1], _articlesContainer);
+    getArticle(articleToShow, _articlesContainer);
     attachEvents();
 }
 
@@ -32,22 +33,26 @@ function ready() {
  */
 function populateArticleList(_articleList) {
     articleList.forEach(function (value, index) {
-        var _li = document.createElement("li");
-        var _a = document.createElement("a");
-        var _text = document.createTextNode(articleList[index][0]);
+        var article = articleList[index];
 
-        _a.classList = "inverse";
-        _a.href = getDisplayUrl(index);
-        _a.appendChild(_text);
-        _li.appendChild(_a);
-        _articleList.appendChild(_li);
+        if (article.published) {
+            var _li = document.createElement("li");
+            var _a = document.createElement("a");
+            var _text = document.createTextNode(article["title"]);
+
+            _a.classList = "inverse";
+            _a.href = getDisplayUrl(index);
+            _a.appendChild(_text);
+            _li.appendChild(_a);
+            _articleList.appendChild(_li);
+        }
     });
 }
 
 /**
  * Send an async GET request asking for the next article
  */
-function getArticle(articleName, elementToAppend) {
+function getArticle(article, elementToAppend) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
@@ -55,7 +60,7 @@ function getArticle(articleName, elementToAppend) {
         }
     }
 
-    xmlhttp.open("GET", getUrl(articleName), true);
+    xmlhttp.open("GET", getUrl(article), true);
     xmlhttp.send();
 }
 
@@ -79,8 +84,8 @@ function appendArticle(responseText, elementToAppend) {
 /**
  * Helper function to get the URL to an article's content
  */
-function getUrl(articleName) {
-    return window.location.pathname + "articles/" + articleName;
+function getUrl(article) {
+    return window.location.pathname + "articles/" + article["file"];
 }
 
 /**
@@ -89,6 +94,34 @@ function getUrl(articleName) {
  */
 function getDisplayUrl(articleNum) {
     return window.location.pathname + "?article=" + articleNum;
+}
+
+/**
+ * Helper that returns the index of the next available future article
+ * to display. Honours the published flag
+ */
+function getNextArticle(currentIndex) {
+    currentIndex++;
+    var currentArticle = articleList[currentIndex];
+    while (currentArticle !== undefined && !currentArticle.published) {
+        currentArticle = articleList[++currentIndex];
+    }
+
+    return currentIndex;
+}
+
+/**
+ * Helper that returns the index of the next available past article
+ * to display. Honours the published flag
+ */
+function getPrevArticle(currentIndex) {
+    currentIndex--;
+    var currentArticle = articleList[currentIndex];
+    while (currentArticle !== undefined && !currentArticle.published) {
+        currentArticle = articleList[--currentIndex];
+    }
+
+    return currentIndex;;
 }
 
 /**
@@ -106,16 +139,18 @@ function attachEvents() {
         document.body.classList = "";
     }
 
-    var nextArticle = articleList[articleIterator + 1];
-    var prevArticle = articleList[articleIterator - 1];
+    var nextArticleIndex = getNextArticle(articleIterator);
+    var prevArticleIndex = getPrevArticle(articleIterator);
+    var nextArticle = articleList[nextArticleIndex];
+    var prevArticle = articleList[prevArticleIndex];
 
     if (nextArticle) {
         var _next = document.getElementsByClassName("ui-next")[0];
         _next.classList = _next.classList + " show";
 
         var _nextLink = _next.getElementsByClassName("ui-next-link")[0];
-        _nextLink.innerHTML = nextArticle[0];
-        _nextLink.href = getDisplayUrl(articleIterator + 1);
+        _nextLink.innerHTML = nextArticle["title"];
+        _nextLink.href = getDisplayUrl(nextArticleIndex);
     }
 
     if (prevArticle) {
@@ -123,8 +158,8 @@ function attachEvents() {
         _prev.classList = _prev.classList + " show";
 
         var _prevLink = _prev.getElementsByClassName("ui-prev-link")[0];
-        _prevLink.innerHTML = prevArticle[0];
-        _prevLink.href = getDisplayUrl(articleIterator - 1);
+        _prevLink.innerHTML = prevArticle["title"];
+        _prevLink.href = getDisplayUrl(prevArticleIndex);
     }
 }
 
