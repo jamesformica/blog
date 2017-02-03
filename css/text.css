@@ -3,10 +3,20 @@ body {
 }
 
 h1 {
+    position: relative;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #083751;
+}
+
+h1:after {
+    content: "THE BLOG";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    font-size: 12px;
+    transform: translateX(-50%);
 }
 
 .no-style {
