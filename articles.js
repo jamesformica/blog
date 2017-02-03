@@ -7,6 +7,6 @@ var articleList = [
     {
         title: "Accepting your gaming addiction",
         file: "rocketleagueadict.md",
-        published: false
+        published: true
     }
 ];
