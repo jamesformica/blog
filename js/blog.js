@@ -32,8 +32,8 @@ function ready() {
  * Populates the side panel with the list of links to all articles 
  */
 function populateArticleList(_articleList) {
-    articleList.forEach(function (value, index) {
-        var article = articleList[index];
+    for (var i = articleList.length - 1; i >= 0; i--) {
+        var article = articleList[i];
 
         if (article.published) {
             var _li = document.createElement("li");
@@ -41,12 +41,12 @@ function populateArticleList(_articleList) {
             var _text = document.createTextNode(article["title"]);
 
             _a.classList = "inverse";
-            _a.href = getDisplayUrl(index);
+            _a.href = getDisplayUrl(i);
             _a.appendChild(_text);
             _li.appendChild(_a);
             _articleList.appendChild(_li);
         }
-    });
+    }
 }
 
 /**
