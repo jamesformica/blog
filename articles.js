@@ -8,5 +8,10 @@ var articleList = [
         title: "Accepting your gaming addiction",
         file: "rocketleagueadict.md",
         published: true
+    },
+    {
+        title: "Proposal Pressure",
+        file: "propose.md",
+        published: false
     }
 ];
