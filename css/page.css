@@ -102,3 +102,12 @@ body > .backdrop {
 .show {
     display: block;
 }
+
+.chart {
+    width: 100%;
+    height: 400px;
+}
+
+.chart div {
+    width: initial;
+}

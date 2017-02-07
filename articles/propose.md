@@ -1,12 +1,12 @@
-## Being pressured into proposing
+## Being pressured to propose
 
 6<sup>th</sup> February 2017
 
-This November will mark the 8<sup>th</sup> anniversary between me and my partner. That's a lot of years and apparently too many years to remain unwed. This post's intention is in no way to condemn marriage but to highlight some changes in perhaps my generation's mindset on the topic.  
+This November will mark the 8<sup>th</sup> anniversary between me and my partner. That's a lot of years and apparently too many years to remain unwed. This post's intention is in no way to condemn marriage but demonstrate my feelings towards what I consider a "typical wedding" and why it's not for me.  
 
 It is also worth mentioning that my feelings and opinions expressed on this page have been communicated with my partner. I would want to know her thoughts and feelings, and I do, and she knows mine.
 
-### Traditional Italian Weddings
+### Traditional Italian weddings
 
 I'm Italian. My dad's side is a typically big Italian family with many aunts and uncles and cousins. My early teenage years were when the last few of my first cousins got married. I do sincerely hope they enjoyed their weddings but I honestly could not think of a more boring way to tie the knot. I think the typical Italian wedding was designed to suck every last drop of fun out of what should be a joyous occasion for everyone, especially the bride and groom. Starting with the church you get the high octane performance of an old man reading some older stories while you sit on an ass-numbing wooden bench. As a kid, the only thing I ever prayed for at a wedding was for the ceremony to be in English not Italian. "Dearly beloved we are gather here toda..." hearing this line triggers a reflex action where my eyes slowly close and little sheep appear in my mind jumping over a quaint little fence. After the mass the bridal party hop into some cool vintage cars tied with white ribbon and go off to have the exact same photo shoot that every other couple get. We all know which one is going to be printed in A1 black and white and framed in the dining room. You know the one, the couple are standing next to a tree, staring deeply into each others eyes, unnaturally grasping their waists. For the 3 hours that the shoot goes on for, everyone else has to find something to do before the reception starts. The smart ones go home. You know what's better than ~~wasting~~ spending half a day at a wedding? Spending the entire day at the wedding. 
 
@@ -16,26 +16,38 @@ I've seen this wedding happen too many times, it's like a script has been writte
 
 I'd just rather not do it this way.
 
-### Obligations
+### Things holding me back
 
 Ok that whole last section was basically me just poking sarcastic fun at the tradition events of a wedding. This is where I really feel my issues lie with weddings. I feel the pressure to have a wedding a certain way because of what is expected ruins it for me. I think a wedding should be an expression of both the bride and groom, not an expression of their parents.  
 
+#### Who gets to come?
+
 I fear the biggest fights will arise from the guest list. I have a small group of friends (definitely quality over quantity) and I see my close family as much as I can. To me, these are the people that I should be sharing my day with. They know me, they know us, they will hopefully be genuinely happy for us. I'd rather spend more money on the alcohol tab than invite some extended cousin that I see once every 5 years and their entire family too out of obligation.  
+
+#### For the oldies
 
 Is getting married in a hurry justifiable so that your grandparents can be there? I'm sure to some people it certainly is. My relationship with my grandparents has never been close and maybe one day I will regret feeling this way but rushing together a wedding for the sake of their attendance doesn't seem right. Plus, I doubt they will approve of not getting married in a church anyway.  
 
+#### We've been together long enough
+
 As I mentioned at the start of this post we've already been together 7 years. Everyone over the age of 55 has a mathematical formula for when to get married, apparently we are overdue. "I got married when I was 22..." congratu-fucking-lations! Times were different back then, getting married meant you could actually be together like an actual couple with the approval of both your parents and the Lord. Today (at least for us) the rules are much more relaxed and getting married seems like just putting the final label on our relationship. It also means a bunch of paperwork to change my partners last name, if she chooses to do so.  
 
-It's also worth mentioning that the average age to get married has
+It's also worth mentioning that the average age to get married for both males and females has risen over the decades
 
-### The Money
+{chart:charts.marriageChart}  
+[Source: InfoPlease](http://www.infoplease.com/ipa/A0005061.html)
 
-Call me cheap, that's fine. I've been called it before and it won't be the last time. But you would be incredibly naive to think that weddings are cheap. That's not to say they can't be expensive, I'm sure many people have gotten married on a small budget and have sincerely enjoyed their day. And I know that the parents of the bride and groom are supposed to front up most of the costs but that doesn't make it any better. My parents have already spent a shit tonne of money keeping me alive the past 25 years, I'd feel horribly guilty putting the financial burden on them. I dont mind spending lots of money on a wedding, but if I am going to do so, I better bloody well enjoy it.  
+Over the course of sixty years the average age of marriage has gone up 6 years. Even in the year I was born (1992) the average male would be married in two years time from now at age 26. I firmly believe that my generation is more concerned about their careers and making sure they get the best start in life, so much so that marriage has become somewhat less of a priority to many.
+
+#### The money
+
+Call me cheap, that's fine. I've been called it before and it won't be the last time. But you would be incredibly naive to think that weddings are cheap. That's not to say they can't be expensive, I'm sure many people have gotten married on a small budget and have sincerely enjoyed their day. And I know that the parents of the bride and groom are supposed to front up most of the costs but that doesn't make it any better. My parents have already spent a shit tonne of money keeping me alive the past 24 years, I'd feel horribly guilty putting the financial burden on them. I dont mind spending lots of money on a wedding, but if I am going to do so, I better bloody well enjoy it.  
 
 I know they say money can't buy happiness, but hiring a jumping castle for us and our guests would be a good way to start.
 
-### Doing it Our Way
+### Doing it our way
 
 
-Ok fine you win, I'll let you the real reason
+
+Ok fine you win, you want the truth? The real thing holding me back is that the other week I tried on my favourite suit and my pants didn't fit anymore and I'm now ashamed and I won't look good for the photos...
 

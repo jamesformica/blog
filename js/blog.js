@@ -1,5 +1,4 @@
 var articleIterator;
-
 function ready() {
     articleIterator = articleList.length - 1;
 
@@ -26,6 +25,11 @@ function ready() {
     populateArticleList(_articleList);
     getArticle(articleToShow, _articlesContainer);
     attachEvents();
+
+    if (typeof (google) !== "undefined") {
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawCharts);
+    }
 }
 
 /**
@@ -73,7 +77,8 @@ function appendArticle(responseText, elementToAppend) {
     converter.setOption('tables', true);
     converter.setOption('strikethrough', true);
 
-    var html = converter.makeHtml(responseText);
+    var html = getChartsReady(responseText);
+    html = converter.makeHtml(html);
 
     var _article = document.createElement("article");
     _article.innerHTML = html;
@@ -185,4 +190,66 @@ function getQueryParam(name) {
     }
 
     return null;
+}
+
+/**
+ * Find all chart declarations and replace them with a div that's ready to be
+ * converted to a Google chart
+ */
+function getChartsReady(html) {
+    var chartIndex = html.indexOf("{chart:");
+
+    while (chartIndex > -1) {
+        var chartCloseBracket = html.indexOf("}", chartIndex);
+        var declaration = html.substring(chartIndex, chartCloseBracket);
+        var namespace = declaration.split(":")[1];
+
+        var _chartPlaceholder = document.createElement("div");
+        _chartPlaceholder.classList = "ui-chart chart";
+        _chartPlaceholder.dataset.namespace = namespace;
+
+        html = html.substring(0, chartIndex) + _chartPlaceholder.outerHTML + html.substring(chartCloseBracket + 1);
+
+        // try find the next one
+        chartIndex = html.indexOf("{chart:", chartCloseBracket);
+    }
+
+    return html;
+}
+
+/**
+ * Finds all chart placeholders and draws the Google chart within
+ * the placeholder
+ */
+function drawCharts() {
+    var _charts = document.getElementsByClassName("ui-chart");
+
+    for (var i = 0; i < _charts.length; i++) {
+        var _chart = _charts[i];
+        _chart.classList = _chart.classList + " show";
+
+        var chartData = eval(_chart.dataset.namespace);
+        var type = chartData["type"] || "line";
+        var data = google.visualization.arrayToDataTable(chartData["data"]);
+
+        var options = {
+            title: chartData["title"] || "",
+            legend: {
+                position: 'bottom'
+            },
+            vAxis: {
+                format: 'long',
+                title: chartData["vTitle"]
+            }
+        };
+
+        var googleChart;
+        if (type == "line") {
+            googleChart = new google.visualization.LineChart(_chart);
+        } else {
+            console.error("Invalid chart type: " + type);
+        }
+
+        googleChart.draw(data, options);
+    }
 }
