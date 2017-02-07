@@ -1,6 +1,5 @@
 var charts;
 (function (charts) {
-
     charts.marriageChart = {
         type: "line",
         title: "Average Age of Marriage",
@@ -31,6 +30,5 @@ var charts;
             ["2010", 28.2, 26.1]
         ]
     };
-
 })(charts || (charts = {}));
 

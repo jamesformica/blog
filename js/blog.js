@@ -244,7 +244,7 @@ function drawCharts() {
         };
 
         var googleChart;
-        if (type == "line") {
+        if (type === "line") {
             googleChart = new google.visualization.LineChart(_chart);
         } else {
             console.error("Invalid chart type: " + type);

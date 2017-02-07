@@ -10,7 +10,7 @@ var articleList = [
         published: true
     },
     {
-        title: "Proposal Pressure",
+        title: "Being pressured to propose",
         file: "propose.md",
         published: false
     }
