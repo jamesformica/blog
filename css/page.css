@@ -49,6 +49,10 @@ body > section {
     align-items: center;
 }
 
+body > section img {
+    border: 5px solid black;
+}
+
 body > section > header {
     text-align: center;
 }

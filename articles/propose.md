@@ -1,6 +1,8 @@
-## Being pressured to propose
+## The whole wedding thing...
 
 8<sup>th</sup> February 2017
+
+![to have and to hold in case you get cold](https://jamesformica.github.io/blog/images/wedding/tohandandhold.jpg)
 
 This November will mark the 8<sup>th</sup> anniversary between me and my partner. That's a lot of years and apparently too many years to remain unwed. This post's intention is in no way to condemn marriage but demonstrate my feelings towards what I consider a "typical wedding" and why it's not for me.  
 
@@ -47,7 +49,7 @@ Call me cheap, that's fine. I've been called it before and it won't be the last 
 
 My partner and I have had many conversations about what it is we want from a wedding and have come up with a _plan_. The engagement party can be as big as needed and will be local. This will give my parents a chance to invite who they like and get it out of their system. Most likely in a quirkily decorate hall, we could even have a bunch of food trunks serve people instead of usual catering. Following the engagement would be a destination wedding somewhere tropical. My partner likes the idea of getting married in a rain forrest. It would be a smaller, intimate wedding with no church and the reception straight away. And when I say reception I mean a very relaxed and informal gathering. I genuinely want to enjoy and celebrate the day with whoever is there, especially my bride.
 
-![Something like this](https://jamesformica.github.io/blog/images/wedding/forrest.jpg)
+![Something like this](https://jamesformica.github.io/blog/images/wedding/forest.jpg)
 
 
 
