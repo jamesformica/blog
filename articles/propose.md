@@ -47,6 +47,8 @@ Call me cheap, that's fine. I've been called it before and it won't be the last 
 
 My partner and I have had many conversations about what it is we want from a wedding and have come up with a _plan_. The engagement party can be as big as needed and will be local. This will give my parents a chance to invite who they like and get it out of their system. Most likely in a quirkily decorate hall, we could even have a bunch of food trunks serve people instead of usual catering. Following the engagement would be a destination wedding somewhere tropical. My partner likes the idea of getting married in a rain forrest. It would be a smaller, intimate wedding with no church and the reception straight away. And when I say reception I mean a very relaxed and informal gathering. I genuinely want to enjoy and celebrate the day with whoever is there, especially my bride.
 
+![Something like this](https://jamesformica.github.io/blog/images/wedding/forrest.jpg)
+
 
 
 Ok fine you win, you want the truth? The real thing holding me back is that the other week I tried on my favourite suit and my pants didn't fit anymore and I'm now ashamed and I won't look good for the photos...
