@@ -10,8 +10,8 @@ var articleList = [
         published: true
     },
     {
-        title: "Being pressured to propose",
-        file: "propose.md",
-        published: false
+        title: "The whole wedding thing",
+        file: "wedding.md",
+        published: true
     }
 ];
