@@ -34,7 +34,7 @@ As I mentioned at the start of this post we've already been together 7 years. Ev
 
 It's also worth mentioning that the average age to get married for both males and females has risen over the decades
 
-{chart:charts.marriageChart}  
+{chart:charts.marriageChart}
 [Source: InfoPlease](http://www.infoplease.com/ipa/A0005061.html)
 
 Over the course of sixty years the average age of marriage has gone up 6 years. Even in the year I was born (1992) the average male would be married in two years time from now at age 26. I firmly believe that my generation is more concerned about their careers and making sure they get the best start in life, so much so that marriage has become somewhat less of a priority to many.
