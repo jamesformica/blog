@@ -5,7 +5,7 @@ function ready() {
 var blogManager = (function () {
     function blogManager() {
         this.articleIterator = articleList.length - 1;
-        this._articleContainer = document.getElementsByClassName("ui-articles")[0];
+        this._articleContainer = document.getElementsByClassName("ui-article")[0];
         this._articleListContainer = document.getElementsByClassName("ui-article-list")[0];
         this._hamburger = document.getElementsByClassName("ui-hamburger")[0];
         this._backdrop = document.getElementsByClassName("ui-backdrop")[0];
@@ -171,7 +171,7 @@ var blogManager = (function () {
 
             var _nextLink = _next.getElementsByClassName("ui-next-link")[0];
             _nextLink.innerHTML = nextArticle["title"];
-            _nextLink.href = getDisplayUrl(nextArticleIndex);
+            _nextLink.href = this.getDisplayUrl(nextArticleIndex);
         }
 
         if (prevArticle) {

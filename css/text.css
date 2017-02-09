@@ -19,11 +19,6 @@ h1:after {
     transform: translateX(-50%);
 }
 
-.no-style {
-    text-decoration: none;
-    font-style: normal;
-}
-
 p {
     text-align: justify;
 }
@@ -37,7 +32,8 @@ hr {
     max-width: 500px;
 }
 
-hr.inverse {
+hr.sidebar {
     background-color: white;
-    margin: 20px 0;
+    margin: 0;
+    margin-top: 40px;
 }

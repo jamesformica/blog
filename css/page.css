@@ -11,7 +11,8 @@ body > aside {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     width: 250px;
     padding: 20px;
     box-sizing: border-box;
@@ -34,7 +35,7 @@ body > aside ul {
 }
 
 body > aside ul > li {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 body > section {
@@ -67,7 +68,7 @@ body > section > footer {
     justify-content: center;
 }
 
-body > section > .articles, body > section > footer {
+body > section > .article, body > section > footer {
     width: 100%;
     max-width: 600px;
 }
