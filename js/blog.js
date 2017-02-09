@@ -78,6 +78,7 @@ var blogManager = (function () {
 
                 if (_this.isGoogleDefined()) {
                     google.charts.setOnLoadCallback(_this.drawCharts);
+                    document.title = article["title"];
                 }
             }
         }
