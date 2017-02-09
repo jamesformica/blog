@@ -6,7 +6,7 @@ This November will mark the 8<sup>th</sup> anniversary between me and my partner
 
 It is also worth mentioning that my feelings and opinions expressed on this page have been communicated with my partner. I would want to know her thoughts and feelings, and I do, and she knows mine.
 
-![to have and to hold in case you get cold](https://jamesformica.github.io/blog/images/wedding/tohaveandhold.jpg)
+![to have and to hold in case you get cold](images/wedding/tohaveandhold.jpg)
 
 ### Traditional Italian weddings
 
@@ -51,6 +51,6 @@ Anyway, enough ranting, here's how we would ideally do it...
 
 My partner and I have had many conversations about what it is we want from a wedding and have come up with a _plan_. The engagement party can be as big as needed and will be local. This will give my parents a chance to invite who they like and get it out of their system. Most likely in a quirkily decorated hall, we could even have a bunch of food trucks serve people instead of the usual catering. Following the engagement would be a destination wedding somewhere tropical. My partner likes the idea of getting married in a rain forrest. It would be a smaller, intimate wedding with no church and the reception straight away. And when I say reception I mean a very relaxed and informal gathering. I genuinely want to enjoy and celebrate the day with everyone who is there, especially my bride.
 
-![Something like this](https://jamesformica.github.io/blog/images/wedding/forest.jpg)
+![Something like this](images/wedding/forest.jpg)
 
 Ok fine you win, you want the truth? The real thing holding me back is that the other week I tried on my favourite suit and my pants didn't fit anymore and I'm now ashamed because I won't look good for the photos...  

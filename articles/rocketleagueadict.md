@@ -2,7 +2,7 @@
 
 2<sup>nd</sup> February 2017
 
-![Rocket Leauge](https://jamesformica.github.io/blog/images/rocketleague/rocketleague.jpg)
+![Rocket Leauge](images/rocketleague/rocketleague.jpg)
 
 Soccer... with cars... that can fly... Sounds stupid right? It is. But it is also insanely addictive and brought out a side of me that I haven't seen in many, many years.  
 
@@ -72,7 +72,7 @@ Now that we had something to gain (other than bragging rights) for ranking up we
 
 I love this game, but boy does it get my blood pumping for the wrong reasons. I used to prefer playing unranked because there was no pressure, it was simply me and my mates having a laugh.  
 
-![Evil Kermit](https://jamesformica.github.io/blog/images/rocketleague/evilkermit.jpeg)
+![Evil Kermit](images/rocketleague/evilkermit.jpeg)
 ```
 Me: Play unranked and enjoy the company of your friends
 
