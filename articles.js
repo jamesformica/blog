@@ -14,4 +14,10 @@ var articleList = [
         file: "wedding.md",
         published: true
     }
+    ,
+    {
+        title: "R&D to lift your spirits",
+        file: "r&d.md",
+        published: true
+    }
 ];

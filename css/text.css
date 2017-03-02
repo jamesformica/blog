@@ -36,4 +36,5 @@ hr.sidebar {
     background-color: white;
     margin: 0;
     margin-top: 40px;
+    display: inline-block;
 }
