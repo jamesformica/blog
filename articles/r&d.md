@@ -22,7 +22,7 @@ One of the most interesting takeaways from the 2 weeks was our productivity. The
 
 ### The effect on others
 
-Management were excited, thats obvious and it was good to see them actively trying to push forward our development skills. But what I really enjoyed was the enthusiasm displayed by the other developers. We would have daily walk-ins just to see what we were doing and hear about the app and our findings. We also _borrowed_ a seating chair from around the corner that no one had ever sat on. This also helped promote visitors and I swear that chair saw more bums on it in 2 weeks than it had the previous 2 years we had been in the office. It seems that we weren't the only ones excited about the R&D room. I think the idea of having a small greenfield project with little requirements is what every developer dreams of. We thoroughly enjoyed our visitors and it added to our excitement. The most common remarks were:
+Management were excited, thats obvious and it was good to see them actively trying to push forward our development skills. But what I really enjoyed was the enthusiasm displayed by the other developers. We would have daily walk-ins just to see what we were doing and hear about the app and our findings. We also _borrowed_ a seating chair from around the corner that no one had ever sat on. This also helped promote visitors and I swear that chair saw more bums on it in 2 weeks than it had the previous ~~2 years~~ 1 year and 2 months<sup>1</sup> we had been in the office. It seems that we weren't the only ones excited about the R&D room. I think the idea of having a small greenfield project with little requirements is what every developer dreams of. We thoroughly enjoyed our visitors and it added to our excitement. The most common remarks were:
 
 - Oh you guys get to have music playing?
 - It's so quiet back out at your old desks (apparently ~~we~~ I account for a lot of noise)
@@ -36,3 +36,5 @@ As awesome as it was to have the experience to be in the room, it was just as aw
 It might have been hard to drag Matt and I out of the room when our 2 weeks were up, but I was thankful to have gotten the chance to experience the wonders of the R&D room and it's magical motivational powers. We decided to leave an R&D Hall of Fame list at the top of the whiteboard. The legacy of Matt and James lives on.
 
 ![our legacy](images/r&d/halloffame.jpg)
+
+<sup>1</sup> Thank you Dave for the correction. I must say it definitely feels longer than 1 year!
