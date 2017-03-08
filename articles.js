@@ -13,11 +13,15 @@ var articleList = [
         title: "The whole wedding thing",
         file: "wedding.md",
         published: true
-    }
-    ,
+    },
     {
         title: "R&D to lift your spirits",
         file: "r&d.md",
         published: true
+    },
+    {
+        title: "Giving nail biting the flick",
+        file: "nails.md",
+        published: false
     }
 ];
