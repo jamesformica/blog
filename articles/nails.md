@@ -1,0 +1,13 @@
+## The arduous journey to quit biting my nails
+
+9<sup>th</sup> March 2017
+
+I have anxiety. Most people do I believe although it's then a question of what brings on their anxiety and to what degree. My anxiety essentially revolves around disappointing people. That's a very vague statement but over the years I've come to accept it as the truth. I've never seen a professional about it so my self diagnosis could be all sorts of wrong. I claim to be no expert, just a victim of made up problems in my head that have more impact on my daily life than I would prefer. A side effect of my own little delusions as you have probably guessed is biting my nails. I hate it and I want to stop it.  
+
+Disappointing people? Sounds like I want to be some hero like Captain Successful who always comes through and saves the day for an average life problem in the mundane existence of an average joe. Monday mornings are the worst for nail biting. When I sit down at my desk and look at the tasks I didn't complete the week earlier and the tasks I need to complete this week my anxiety kicks in a sits at the back of my mind asking "What if you don't complete your tasks. You'll let down your team and your managers and you will [**Pause: I am literally biting my nails on the train to work whilst writing this. Curse my subconscious and whatever it is worrying about now. Probably about disappointing my 2 readers of this blog... Hi guys!**] look like a failure. At work it's about letting down my managers, at home it's about letting down my family, in my relationship its about not providing the life my partner deserves. All these things make me nervous and trigger the dumbest, most useless reflex action of biting my nails. It's so stupid, it makes no sense. My nails have never done anything bad to me, I've never had anything against them. So why oh why should they suffer for the dumb emotions my brain creates?  
+
+[do some research]  
+
+I must apologise to you dear reader, for I have not been fully honest about my symptoms. Up until last year my painless suffering began and ended with nail biting. I'm not sure how it happened or why it happened but my logic lacking brain decided pulling out hair would be a wonderful addition to the grossness my hands were being subjected to. What a grand idea brain, how do you do it? Fortunately I have been able to regain some control from my brain and have limited the hair harvesting areas to my index fingers and the area near my fingers on the tops of my hands. It's disgusting, it's abnormal, it's odd looking and it's simply ridiculous. 
+
+[slowly but surely]
