@@ -30,5 +30,19 @@ var charts;
             ["2010", 28.2, 26.1]
         ]
     };
+
+    charts.nailbitersChart = {
+        type: "bar",
+        title: "% of Nail Biters by Age Group",
+        hTitle: "Percent",
+        legend: "none",
+        data: [
+            ["Ages", "Percent", { role: 'style' }],
+            ["Children", 33, "#1abc9c"],
+            ["Adolescents", 44, "#3498db"],
+            ["Young Adults", 29, "#9b59b6"],
+            ["Older Adults", 5, "#f39c12"]
+        ]
+    }
 })(charts || (charts = {}));
 

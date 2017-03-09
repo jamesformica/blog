@@ -22,6 +22,6 @@ var articleList = [
     {
         title: "Giving nail biting the flick",
         file: "nails.md",
-        published: false
+        published: true
     }
 ];

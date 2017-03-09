@@ -251,17 +251,24 @@ var blogManager = (function () {
             var options = {
                 title: chartData["title"] || "",
                 legend: {
-                    position: 'bottom'
+                    position: chartData["legend"] || 'bottom'
                 },
                 vAxis: {
                     format: 'long',
                     title: chartData["vTitle"]
+                },
+                hAxis: {
+                    title: chartData["hTitle"]
                 }
             };
 
             var googleChart;
             if (type === "line") {
                 googleChart = new google.visualization.LineChart(_chart);
+            } else if (type === "pie") {
+                googleChart = new google.visualization.PieChart(_chart);
+            } else if (type === "bar") {
+                googleChart = new google.visualization.BarChart(_chart);
             } else {
                 console.error("Invalid chart type: " + type);
             }
