@@ -23,5 +23,10 @@ var articleList = [
         title: "Giving nail biting the flick",
         file: "nails.md",
         published: true
+    },
+    {
+        title: "Getting away from development (and going camping)",
+        file: "camping.md",
+        published: true
     }
 ];
