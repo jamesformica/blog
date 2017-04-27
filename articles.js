@@ -28,5 +28,10 @@ var articleList = [
         title: "Getting away from development (and going camping)",
         file: "camping.md",
         published: true
+    },
+    {
+        title: "Is it time to switch jobs?",
+        file: "jobswitch.md",
+        published: true
     }
 ];
