@@ -33,5 +33,10 @@ var articleList = [
         title: "Is it time to switch jobs?",
         file: "jobswitch.md",
         published: true
+    },
+    {
+        title: "Building a chocolate engraver",
+        file: "ace.md",
+        published: true
     }
 ];
