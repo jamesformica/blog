@@ -195,7 +195,8 @@ blockquote p {
 }
 
 li {
-  margin-left: 2rem;
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 p {
