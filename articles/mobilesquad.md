@@ -18,14 +18,14 @@ It took me quite a while to finish all the drawings. I found some pages really d
 
 That's pretty much it. As of writing this I haven't received my books nor have I given my presentation. If you would like to [see a preview of the book you can click here.](/views/momento.html) Below I have a few of my favourite drawings from the project. I'm not going to provide any context for the images because it's funnier trying to imagine how the hell some of these are relevant!
 
-![james & matt](/images/mobilesquad/james&matt_awe.jpg)
+![james & matt](images/mobilesquad/james&matt_awe.jpg)
 
-![xamarin hero](/images/mobilesquad/xamarin_pose.jpg)
+![xamarin hero](images/mobilesquad/xamarin_pose.jpg)
 
-![burrito](/images/mobilesquad/burrito.jpg)
+![burrito](images/mobilesquad/burrito.jpg)
 
-![dinosaur](/images/mobilesquad/dinosaur.jpg)
+![dinosaur](images/mobilesquad/dinosaur.jpg)
 
-![gorilla](/images/mobilesquad/gorilla.jpg)
+![gorilla](images/mobilesquad/gorilla.jpg)
 
-![group](/images/mobilesquad/group.jpg)
+![group](images/mobilesquad/group.jpg)
