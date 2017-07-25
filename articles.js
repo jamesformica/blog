@@ -38,5 +38,10 @@ var articleList = [
         title: "Building a chocolate engraver",
         file: "ace.md",
         published: true
+    },
+    {
+        title: "The Legend of the Mobile Squad",
+        file: "mobilesquad.md",
+        published: true
     }
 ];

@@ -95,6 +95,7 @@ var blogManager = (function () {
         var converter = new showdown.Converter();
         converter.setOption('tables', true);
         converter.setOption('strikethrough', true);
+        converter.setOption('openLinksInNewWindow', true);
 
         var html = this.getChartsReady(responseText);
         html = converter.makeHtml(html);
