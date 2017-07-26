@@ -2,7 +2,7 @@
 
 25<sup>th</sup> July 2017
 
-I have recently been a part of a 3 developer squad that created and release a Xamarin App. It was the company's first Xamarin App and was a follow on project from my time in the [R&D Room.](/?article=3) The app we created is called **StarRez X** and will be available in the App Store and Google Play Store.
+I have recently been a part of a 3 developer squad that created and release a Xamarin App. It was the company's first Xamarin App and was a follow on project from my time in the [R&D Room.](?article=3) The app we created is called **StarRez X** and will be available in the App Store and Google Play Store.
 
 This post is not about how we created the app. Instead it is about the book that I created about creating the app. That's right, I made a book. It all started when I agreed to do an internal "tech talk" about my time on the mobile squad. I'm not usually one for normal presentations so I was thinking of a better way to present the _story_ of the team. If I was going to tell a story, I might as well give that story a book. I also remembered going to a meetup years ago (I was awfully sick and we went to see Florence and the Machine at the Sydney Myer Music Bowl that night) where one of the presenters hand painted a little image for each slide. I really liked the idea, and it has apparently kept with me. I decided I would use water colour paint though I had never really used it before. I don't really fancy myself a painter but there is an arty side in me somewhere so off I went to buy some supplies. 
 
