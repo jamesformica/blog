@@ -32,7 +32,7 @@ var articleList = [
     {
         title: "Is it time to switch jobs?",
         file: "jobswitch.md",
-        published: true
+        published: false
     },
     {
         title: "Building a chocolate engraver",
@@ -42,6 +42,11 @@ var articleList = [
     {
         title: "The Legend of the Mobile Squad",
         file: "mobilesquad.md",
+        published: true
+    },
+    {
+        title: "Parma Rant",
+        file: "parma.md",
         published: true
     }
 ];
