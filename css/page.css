@@ -2,7 +2,6 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-
     display: flex;
     flex-direction: row;
 }
@@ -140,4 +139,66 @@ body > .backdrop {
 
 .chart div {
     width: initial;
+}
+
+.pre-fetch p {
+    font-size: 0.6em;
+    text-align: center;
+    color: #083751;
+}
+
+.loader {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    vertical-align: bottom;
+}
+
+.loader > .one, .loader > .two, .loader > .three {
+    width: 18px;
+    height: 40px;
+    margin: 0 3px;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+}
+
+.loader > .one {
+    animation-name: loader-one;
+    background-color: #F2A7D9;
+}
+
+.loader > .two {
+    animation-name: loader-two;
+    background-color: #6FDBCF;
+}
+
+.loader > .three {
+    animation-name: loader-three;
+    background-color: #F4D84C;
+}
+
+@keyframes loader-one {
+    0% { height: 10px; }
+    45% { height: 10px; }
+    50% { height: 40px; }
+    96% { height: 40px; }
+    100% { height: 10px; }
+}
+
+@keyframes loader-two {
+    0% { height: 15px; }
+    50% { height: 15px; }
+    55% { height: 40px; }
+    96% { height: 40px; }
+    100% { height: 15px; }
+}
+
+@keyframes loader-three {
+    0% { height: 20px; }
+    55% { height: 20px; }
+    60% { height: 40px; }
+    96% { height: 40px; }
+    100% { height: 20px; }
 }

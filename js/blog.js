@@ -103,6 +103,12 @@ var blogManager = (function () {
         var _article = document.createElement("article");
         _article.innerHTML = html;
 
+        // hide anything that needs to be hidden
+        var toDelete = this._articleContainer.getElementsByClassName("ui-deleteonload");
+        for (var i = 0; i < toDelete.length; i++) {
+            toDelete[i].remove();
+        }
+
         this._articleContainer.appendChild(_article);
     }
 
