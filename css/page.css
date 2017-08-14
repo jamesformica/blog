@@ -107,9 +107,11 @@ body > .hamburger:hover, body > .hamburger:active {
 body > .backdrop {
     position: fixed;
     width: 100vw;
-    height: 100vh;
-    background: transparent;
+    height: 100%;
+    background: linear-gradient(#6FDBCF, #F2A7D9 ,#F4D84C);
+    opacity: 0.6;
     display: none;
+    z-index: 999;
 }
 
 .next, .prev {
