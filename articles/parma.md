@@ -13,4 +13,4 @@ R.I.P 🐔🐷🍅🧀🍟🍃
 
 Rant over!
 
-\*Drops mic\*
+\*Drops mic\* 🎤 💥
