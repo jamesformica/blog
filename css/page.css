@@ -43,6 +43,7 @@ body > aside ul {
 
 body > aside ul > li {
     margin: 40px 0;
+    text-underline-position: under;
 }
 
 body > section {
