@@ -48,5 +48,10 @@ var articleList = [
         title: "Parma Rant",
         file: "parma.md",
         published: true
+    },
+    {
+        title: "Progressive Web Apps",
+        file: "pwa.md",
+        published: true
     }
 ];

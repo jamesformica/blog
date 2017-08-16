@@ -1,5 +1,4 @@
 function ready() {
-    rainbowBomb();
     new blogManager();
 }
 
@@ -287,23 +286,3 @@ var blogManager = (function () {
 
     return blogManager;
 })();
-
-function rainbowBomb() {
-    var colours = ["#F2A7D9", "#6FDBCF", "#F4D84C"];
-    var rainbows = document.getElementsByClassName("ui-rainbow");
-    for (var i = 0; i < rainbows.length; i++) {
-        var _rainbow = rainbows[i];
-        var text = _rainbow.innerHTML;
-        var rainbowEffect = "";
-        
-        for (var j = 0, counter = 0; j < text.length; j++) {
-            if (text[j] === ' ') {
-                rainbowEffect += '<span>' + text[j] + '</span>';
-            } else {
-                rainbowEffect += '<span style="color:' + colours[counter % colours.length] + '">' + text[j] + '</span>';
-                counter++;
-            }
-        }
-        _rainbow.innerHTML = rainbowEffect;
-    }
-}
