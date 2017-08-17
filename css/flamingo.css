@@ -4,6 +4,7 @@
     height: 400px;
     margin-top: 100px;
     transform: rotateY(180deg);
+    overflow: hidden;
 }
 
 .fl-body {
