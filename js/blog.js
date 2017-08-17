@@ -1,5 +1,12 @@
 function ready() {
+    setAge();
     new blogManager();
+}
+
+function setAge() {
+    var _age = document.getElementById("my-age");
+    var bday = new Date("April 30 1992");
+    _age.innerText = new Date().getFullYear() - bday.getFullYear() + " yrs old";
 }
 
 var blogManager = (function () {
@@ -55,9 +62,8 @@ var blogManager = (function () {
             if (article.published) {
                 var _li = document.createElement("li");
                 var _a = document.createElement("a");
-                var _text = document.createTextNode(article["title"]);
+                var _text = document.createTextNode(i + 1 + ". " + article["title"]);
 
-                _a.classList = "inverse";
                 _a.href = this.getDisplayUrl(i);
                 _a.appendChild(_text);
                 _li.appendChild(_a);

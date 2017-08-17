@@ -16,8 +16,8 @@ body > aside {
     box-sizing: border-box;
     font-size: 16px;
     overflow: auto;
-    background-color: #083751;
-    color: white;
+    background-color: white;
+    color: #083751;
     text-align: center;
 
     flex-grow: 0;
@@ -32,18 +32,66 @@ body > aside > .me {
     flex-grow: 0;
 }
 
-body > aside > nav {
-    flex-grow: 1;
+body > aside > .me > .link-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-body > aside ul {
+body > aside > .me > .link-icons > a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #083751;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+body > aside > .me > .link-icons > a:hover {
+    background-color: #F2A7D9;
+    transform: rotate(15deg);
+}
+
+body > aside > .me > .link-icons > a:nth-child(2n):hover {
+    background-color: #6FDBCF;
+}
+
+body > aside > .me > .link-icons > a:nth-child(3n):hover {
+    background-color: #F4D84C;
+}
+
+nav > p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     list-style: none;
 }
 
-body > aside ul > li {
-    margin: 40px 0;
+nav > ul > li {
+    margin: 10px;
     text-underline-position: under;
+    text-align: center;
+}
+
+nav > ul > li > a {
+    font-size: 14px;
+    color: #083751;
 }
 
 body > section {
