@@ -1,12 +1,7 @@
 var CACHE_NAME = "static-cache";
 
 var urlsToCache = [
-    ".",
-    "index.html",
-    "css/mobile.css",
-    "css/page.css",
-    "css/splendor.css",
-    "css/text.css",
+    "."
 ];
 
 self.addEventListener("install", function(event) {
