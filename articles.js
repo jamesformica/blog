@@ -53,5 +53,10 @@ var articleList = [
         title: "Progressive Web Apps",
         file: "pwa.md",
         published: true
+    },
+    {
+        title: "Rainbow Bomb (js function)",
+        file: "rainbow.md",
+        published: true
     }
 ];
